@@ -1,0 +1,17 @@
+﻿package-as: Broker_RunSpeed
+
+externals:
+  libs/LibStub:
+    url: svn://svn.wowace.com/wow/libstub/mainline/trunk
+  libs/CallbackHandler:
+    url: https://repos.wowace.com/wow/callbackhandler/trunk/CallbackHandler-1.0
+    tag: latest
+  libs/LibDataBroker:
+    url: https://github.com/tekkub/libdatabroker-1-1.git
+    tag: v1.1.4
+
+ignore:
+  - libs/LibStub/tests
+  - get_libs.sh
+
+enable-nolib-creation: yes
