@@ -16,10 +16,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    strategy:
-      fail-fast: false
-      matrix:
-        game_version: [ 'classic', 'bcc', 'retail' ]
 
     env:
       CF_API_KEY: ${{ secrets.CF_API_KEY }}
@@ -32,10 +28,8 @@ jobs:
 
       - name: WoW Packager
         uses: BigWigsMods/packager@v2.0.3
-        with:
-          args: -g ${{ matrix.game_version }}
 
       - uses: actions/upload-artifact@v3
         with:
-          name: ${{ matrix.game_version }}
+          name: build
           path: .release
