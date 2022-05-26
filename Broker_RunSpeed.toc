@@ -4,7 +4,7 @@
 ## Title: Broker: RunSpeed
 ## Notes: Display Current % of Run Speed
 ## Author: Gaddor
-## Version: 1.7
+## Version: @project-version@
 
 #@no-lib-strip@
 libs.xml
