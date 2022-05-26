@@ -5,6 +5,8 @@
 ## Notes: Display Current % of Run Speed
 ## Author: Gaddor
 ## Version: @project-version@
+## X-WoWI-ID: 26332
+## X-Wago-ID: nQN5bd6B
 
 #@no-lib-strip@
 libs.xml
