@@ -1,4 +1,4 @@
-# Broker_RunSpeed
+# Broker: RunSpeed
 
 Just a simple Broker/LDB addon to show your current Run Speed %.
 
