@@ -1,11 +1,12 @@
-local _
+local addonName = ...
+local _, addonTitle = _G.GetAddOnInfo(addonName)
 local _G = _G
 local HowRunning
 
-local brsRunSpeed = _G.LibStub("LibDataBroker-1.1"):NewDataObject("Broker_RunSpeed", {
+local brsRunSpeed = _G.LibStub("LibDataBroker-1.1"):NewDataObject(addonTitle, {
 	type = "data source",
 	icon = "Interface\\Icons\\Inv_boots_02.blp",
-	label = "Broker_RunSpeed",
+	label = addonTitle,
 	OnTooltipShow = function()end,
 })
 
