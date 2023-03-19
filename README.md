@@ -1,15 +1,17 @@
 # Broker: RunSpeed
 
-Just a simple Broker/LDB addon to show your current Run Speed %.
+A Broker/LDB addon to show your current Run Speed %.
 
-Work with mounts, vehicles and just plain running!!
+It shows the real movement speed when using a mount, vehicle or just plain running with or with modifications
+like [Aspect of the Cheetah](https://www.wowhead.com/wotlk/spell=5118/aspect-of-the-cheetah)
+and [Pathfinding](https://www.wowhead.com/wotlk/spell=19559/pathfinding).
 
 You must have a LibDataBroker display addon, some examples are:
 
-* [Bazooka](https://github.com/Beast-Masters-addons/bazooka)
-* ChocolateBar
-* Fortress
-* ButtonBin
+* [Bazooka](https://www.wowinterface.com/downloads/info14767)
+* [ChocolateBar](https://www.wowinterface.com/downloads/info12326-ChocolateBarBrokerDisplay.html)
+* [Fortress](https://www.wowinterface.com/downloads/info10401-Fortress.html)
+* [ButtonBin](https://www.wowinterface.com/downloads/info10474-ButtonBin.html)
 
 The addon was originally written by Gaddor and released as public domain.
 
