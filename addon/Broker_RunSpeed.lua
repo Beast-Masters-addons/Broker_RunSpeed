@@ -1,5 +1,6 @@
 local addonName = ...
-local _, addonTitle = _G.GetAddOnInfo(addonName)
+local GetAddOnInfo = _G.GetAddOnInfo or (_G.C_AddOns and _G.C_AddOns.GetAddOnInfo)
+local _, addonTitle, addonDescription = GetAddOnInfo(addonName)
 local _G = _G
 local HowRunning
 
