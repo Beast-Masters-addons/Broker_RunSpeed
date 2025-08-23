@@ -32,4 +32,4 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: Broker_RunSpeed
-          path: .release
+          path: Broker_RunSpeed/.release
