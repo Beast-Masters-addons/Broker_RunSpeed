@@ -1,4 +1,4 @@
-## Interface: 110207, 50503, 11508, 40401, 30403, 20505
+## Interface: 120000, 50503, 11508, 40401, 30403, 20505
 ## Title: Broker: RunSpeed
 ## Notes: Display Current % of Run Speed
 ## Author: Gaddor / datagutten
